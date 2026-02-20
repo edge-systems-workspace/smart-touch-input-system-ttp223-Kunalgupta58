@@ -11,6 +11,10 @@
  */
 
 // TODO 1: Define touch sensor digital pin (Use pin 2)
+ #define TOUCH_PIN 2
+
+ // TODO 2: Create variable to store touch state
+ int touchState = 0;
 
 void setup() {
 
