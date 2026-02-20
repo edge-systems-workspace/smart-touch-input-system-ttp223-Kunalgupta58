@@ -43,4 +43,8 @@ void loop() {
     else {
         Serial.println("No Touch");
     }
+    Serial.println("---------------------------------");
+
+    // TODO 8: Add small delay
+    delay(300);
 }
